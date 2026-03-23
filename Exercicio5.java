@@ -24,7 +24,7 @@ public class Exercicio5 {
 
             // Cálculo
             raio = diametro / 2;
-            volume = (4/3) * Math.PI * Math.pow(raio, 3);
+            volume = (4.0/3.0) * Math.PI * Math.pow(raio, 3);
 
             // Saída
             System.out.println("O volume da esfera é: " + volume);
