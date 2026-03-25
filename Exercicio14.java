@@ -27,7 +27,7 @@ public class Exercicio14 {
             aresta = teclado.nextDouble();
 
             // Cálculo
-            volumeEsfera = (4/3) * Math.PI * Math.pow(raio, 3);
+            volumeEsfera = (4.0/3.0) * Math.PI * Math.pow(raio, 3);
             volumeCubo = Math.pow(aresta, 3);
             volumeLivre = volumeCubo - volumeEsfera;
 
